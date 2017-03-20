@@ -1,0 +1,139 @@
+<!doctype html>
+
+<html class="no-js" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+	<!-- Place favicon.ico in the root directory -->
+
+	<link rel="stylesheet" href="css/css-grid.css">
+	<style>
+		body {
+			font-family: sans-serif;
+			margin: 0;
+		}
+		
+		header {
+			background-color: #eee;
+			color: #000;
+		}
+		
+		main .css-grid {
+			background-color: rgba(0, 125, 0, 0.1);
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="css-grid base">
+			<div class="css-grid content" style="clear: left;">
+				<h1>CSS Grid</h1>
+			</div>
+		</div>
+	</header>
+	
+	<main>
+		<div class="css-grid base">
+			<div class="css-grid content" style="clear: left;">
+				<h1>Basic Grid</h1>
+			</div>
+			
+			<div class="css-grid content" style="clear: left;">
+				<h2>Full Width (100%)</h2>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut viverra tortor. Ut id porttitor metus. Suspendisse tempor ex eu semper auctor. Pellentesque aliquam metus eu fringilla gravida. Donec vitae urna sed magna sollicitudin pellentesque vitae vitae ligula. Aliquam faucibus ligula magna, ac bibendum lectus aliquam ac. Etiam sagittis nisl lacus, quis convallis odio euismod ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec efficitur facilisis ipsum eu mollis. Phasellus accumsan tincidunt quam in elementum. Suspendisse accumsan, lectus eget elementum venenatis, tortor magna laoreet turpis, id rhoncus dolor lectus eget mauris.</p>
+			</div>
+		
+			<div class="css-grid content" style="clear: left; width: 50%;">
+				<h2>Half Width - A (50%)</h2>
+				
+				<p>Aenean et venenatis justo, eu fringilla ligula. Duis tristique ex id rhoncus vehicula. Fusce interdum in libero at congue. Ut justo lectus, blandit vitae justo sit amet, luctus finibus eros. Sed dapibus ex massa, non gravida est facilisis aliquam. Integer quis dolor lacinia, commodo dui sed, varius ligula. Praesent eu condimentum nisl. Aliquam magna est, venenatis et nisl vel, pellentesque laoreet ex. Etiam porta placerat porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec ac nunc ut turpis porta sollicitudin. Vivamus id metus tellus.</p>
+			</div>
+		
+			<div class="css-grid content" style="width: 50%;">
+				<h2>Half Width - B (50%)</h2>
+				
+				<p>Etiam at cursus est. Vivamus porttitor purus non facilisis faucibus. Mauris ex ante, rutrum at urna sed, dapibus varius sapien. Etiam mollis magna et semper hendrerit. Sed condimentum nisl a ipsum posuere fermentum. Etiam laoreet ligula non scelerisque rutrum. Vestibulum efficitur turpis a sagittis lacinia. Aliquam erat volutpat.</p>
+			</div>
+			
+			<div class="css-grid content" style="clear: left; width: 33.33%;">
+				<h2>Third Width - A (33.33%)</h2>
+				
+				<p>Phasellus porta neque at quam accumsan hendrerit. Pellentesque ut mauris sed nunc consequat malesuada id eu erat. Proin sit amet euismod risus. Suspendisse ornare pretium quam, quis ultrices sem bibendum eget.</p>
+			</div>
+		
+			<div class="css-grid content" style="width: 33.33%;">
+				<h2>Third Width - B (33.33%)</h2>
+				
+				<p>Duis euismod suscipit venenatis. Phasellus tellus augue, auctor a magna ac, dictum aliquam diam. Nam eget leo auctor massa efficitur iaculis. Sed porta faucibus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+			</div>
+			
+			<div class="css-grid content" style="width: 33.34%;">
+				<h2>Third Width - C (33.34%)</h2>
+				
+				<p> Integer leo lorem, condimentum posuere dapibus vitae, tempor vel ex. Vestibulum feugiat ligula sed aliquet venenatis. Suspendisse urna dolor, sagittis ut lobortis a, facilisis eget turpis.</p>
+			</div>
+			
+			<div class="css-grid content" style="clear: left;">
+				<h1>Nested Grid</h1>
+			</div>
+			
+			<div class="css-grid layer" style="clear: left;">
+				<div class="css-grid content" style="clear: left;">
+					<h2>Full Width (100%)</h2>
+				
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut viverra tortor. Ut id porttitor metus. Suspendisse tempor ex eu semper auctor. Pellentesque aliquam metus eu fringilla gravida. Donec vitae urna sed magna sollicitudin pellentesque vitae vitae ligula. Aliquam faucibus ligula magna, ac bibendum lectus aliquam ac. Etiam sagittis nisl lacus, quis convallis odio euismod ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec efficitur facilisis ipsum eu mollis. Phasellus accumsan tincidunt quam in elementum. Suspendisse accumsan, lectus eget elementum venenatis, tortor magna laoreet turpis, id rhoncus dolor lectus eget mauris.</p>
+				</div>
+				
+				<div class="css-grid layer" style="clear: left; width: 50%;">
+					<div class="css-grid content" style="clear: left;">
+						<h2>Half Width - A (100% of 50%)</h2>
+				
+						<p>Aenean et venenatis justo, eu fringilla ligula. Duis tristique ex id rhoncus vehicula. Fusce interdum in libero at congue. Ut justo lectus, blandit vitae justo sit amet, luctus finibus eros. Sed dapibus ex massa, non gravida est facilisis aliquam. Integer quis dolor lacinia, commodo dui sed, varius ligula. Praesent eu condimentum nisl. Aliquam magna est, venenatis et nisl vel, pellentesque laoreet ex. Etiam porta placerat porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec ac nunc ut turpis porta sollicitudin. Vivamus id metus tellus.</p>
+					</div>
+					
+					<div class="css-grid content" style="clear: left; width: 50%;">
+						<h2>Quarter Width - A.B<br>(50% of 50%)</h2>
+				
+						<p>Phasellus porta neque at quam accumsan hendrerit. Pellentesque ut mauris sed nunc consequat malesuada id eu erat. Proin sit amet euismod risus. Suspendisse ornare pretium quam, quis ultrices sem bibendum eget.</p>
+					</div>
+		
+					<div class="css-grid content" style="width: 50%;">
+						<h2>Third Width - B.B<br>(50% of 50%)</h2>
+				
+						<p>Duis euismod suscipit venenatis. Phasellus tellus augue, auctor a magna ac, dictum aliquam diam. Nam eget leo auctor massa efficitur iaculis. Sed porta faucibus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+					</div>
+				</div>
+				
+				<div class="css-grid layer" style="width: 50%;">
+					<div class="css-grid content" style="clear: left;">
+						<h2>Half Width - B (100% of 50%)</h2>
+				
+						<p>Etiam at cursus est. Vivamus porttitor purus non facilisis faucibus. Mauris ex ante, rutrum at urna sed, dapibus varius sapien. Etiam mollis magna et semper hendrerit. Sed condimentum nisl a ipsum posuere fermentum. Etiam laoreet ligula non scelerisque rutrum. Vestibulum efficitur turpis a sagittis lacinia. Aliquam erat volutpat.</p>
+					</div>
+					
+					<div class="css-grid content" style="clear: left; width: 50%;">
+						<h2>Quarter Width - A.B<br>(50% of 50%)</h2>
+				
+						<p>Phasellus porta neque at quam accumsan hendrerit. Pellentesque ut mauris sed nunc consequat malesuada id eu erat. Proin sit amet euismod risus. Suspendisse ornare pretium quam, quis ultrices sem bibendum eget.</p>
+					</div>
+		
+					<div class="css-grid content" style="width: 50%;">
+						<h2>Third Width - B.B<br>(50% of 50%)</h2>
+				
+						<p>Duis euismod suscipit venenatis. Phasellus tellus augue, auctor a magna ac, dictum aliquam diam. Nam eget leo auctor massa efficitur iaculis. Sed porta faucibus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>
